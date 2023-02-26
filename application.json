@@ -15,6 +15,10 @@
     {
       "id": "Images2",
       "isDefault": false
+    },
+    {
+      "id": "Public.Global Tasks",
+      "isDefault": false
     }
   ],
   "viewMode": false,

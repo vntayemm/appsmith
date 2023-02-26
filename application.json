@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "id": "Search",
+      "isDefault": false
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": true
+    },
+    {
+      "id": "Images2",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#ECECEC",
+  "icon": "pizza",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

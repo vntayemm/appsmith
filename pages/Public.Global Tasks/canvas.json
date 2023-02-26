@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 510,
+          "bottomRow": 800,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -224,7 +224,7 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Insert_Modal",
+              "widgetName": "Update_Corver_Image",
               "topRow": 16,
               "bottomRow": 40,
               "parentRowSpace": 10,
@@ -253,306 +253,50 @@
                     {
                       "schema": {
                         "__root_schema__": {
-                          "labelTextSize": "0.875rem",
-                          "identifier": "__root_schema__",
-                          "boxShadow": "none",
-                          "isRequired": false,
-                          "isCustomField": false,
-                          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                          "dataType": "object",
-                          "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                          "accessor": "__root_schema__",
-                          "isVisible": true,
-                          "label": "",
-                          "originalIdentifier": "__root_schema__",
-                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                           "children": {
-                            "col8": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col8",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col8))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "null",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col8",
-                              "isVisible": true,
-                              "label": "Col 8",
-                              "originalIdentifier": "col8",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                            "corver_image": {
                               "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 7,
-                              "isDisabled": false,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Text Input"
-                            },
-                            "col12": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col12",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col12))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "null",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col12",
-                              "isVisible": true,
-                              "label": "Col 12",
-                              "originalIdentifier": "col12",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 11,
-                              "isDisabled": false,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Text Input"
-                            },
-                            "col9": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col9",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col9))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "null",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col9",
-                              "isVisible": true,
-                              "label": "Col 9",
-                              "originalIdentifier": "col9",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 8,
-                              "isDisabled": false,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Text Input"
-                            },
-                            "col11": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col11",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col11))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "null",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col11",
-                              "isVisible": true,
-                              "label": "Col 11",
-                              "originalIdentifier": "col11",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 10,
-                              "isDisabled": false,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Text Input"
-                            },
-                            "col6": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col6",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col6))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "null",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col6",
-                              "isVisible": true,
-                              "label": "Col 6",
-                              "originalIdentifier": "col6",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 5,
-                              "isDisabled": false,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Text Input"
-                            },
-                            "col10": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col10",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col10))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "null",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col10",
-                              "isVisible": true,
-                              "label": "Col 10",
-                              "originalIdentifier": "col10",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 9,
-                              "isDisabled": false,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Text Input"
-                            },
-                            "col7": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col7",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col7))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "null",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col7",
-                              "isVisible": true,
-                              "label": "Col 7",
-                              "originalIdentifier": "col7",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 6,
-                              "isDisabled": false,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Text Input"
-                            },
-                            "col4": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col4",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col4))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "boolean",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col4",
-                              "isVisible": true,
-                              "label": "Col 4",
-                              "alignWidget": "LEFT",
-                              "originalIdentifier": "col4",
-                              "borderRadius": "0px",
-                              "children": {},
-                              "position": 3,
-                              "isDisabled": false,
-                              "sourceData": true,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Switch"
-                            },
-                            "col5": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col5",
-                              "boxShadow": "none",
-                              "isRequired": false,
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col5))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "number",
-                              "accessor": "col5",
-                              "isVisible": true,
-                              "label": "Col 5",
-                              "originalIdentifier": "col5",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 4,
-                              "isDisabled": false,
-                              "fieldType": "Number Input"
-                            },
-                            "col2": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col2",
-                              "isRequired": false,
-                              "boxShadow": "none",
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col2))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                               "dataType": "string",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col2",
-                              "isVisible": true,
-                              "label": "Col 2",
-                              "originalIdentifier": "col2",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
-                              "position": 1,
-                              "isDisabled": false,
-                              "sourceData": "skill B",
-                              "cellBoxShadow": "none",
-                              "fieldType": "Text Input"
-                            },
-                            "col3": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col3",
-                              "isRequired": false,
-                              "boxShadow": "none",
+                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.corver_image))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                              "fieldType": "Text Input",
+                              "sourceData": "",
                               "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col3))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "number",
-                              "cellBorderRadius": "0px",
-                              "accessor": "col3",
-                              "isVisible": true,
-                              "label": "Col 3",
-                              "originalIdentifier": "col3",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
-                              "iconAlign": "left",
+                              "accessor": "corver_image",
+                              "identifier": "corver_image",
                               "position": 2,
-                              "isDisabled": false,
-                              "sourceData": 9,
-                              "cellBoxShadow": "none",
-                              "fieldType": "Number Input"
-                            },
-                            "col1": {
-                              "labelTextSize": "0.875rem",
-                              "identifier": "col1",
+                              "originalIdentifier": "corver_image",
                               "boxShadow": "none",
-                              "isRequired": false,
-                              "isCustomField": false,
-                              "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.col1))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "dataType": "number",
-                              "accessor": "col1",
-                              "isVisible": true,
-                              "label": "Col 1",
-                              "originalIdentifier": "col1",
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                              "children": {},
-                              "isSpellCheck": false,
+                              "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                              "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                               "iconAlign": "left",
-                              "position": 0,
                               "isDisabled": false,
-                              "sourceData": 5,
-                              "fieldType": "Number Input"
+                              "isRequired": false,
+                              "isSpellCheck": false,
+                              "isVisible": true,
+                              "labelTextSize": "0.875rem",
+                              "label": "Corver Image"
                             }
                           },
-                          "position": -1,
-                          "isDisabled": false,
+                          "dataType": "object",
+                          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                          "fieldType": "Object",
                           "sourceData": {
-                            "col4": true,
-                            "col2": "skill B",
-                            "col3": 9,
-                            "col1": 5
+                            "corver_image": ""
                           },
+                          "isCustomField": false,
+                          "accessor": "__root_schema__",
+                          "identifier": "__root_schema__",
+                          "position": -1,
+                          "originalIdentifier": "__root_schema__",
+                          "boxShadow": "none",
+                          "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                          "cellBorderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                           "cellBoxShadow": "none",
-                          "fieldType": "Object"
+                          "isDisabled": false,
+                          "isRequired": false,
+                          "isVisible": true,
+                          "labelTextSize": "0.875rem",
+                          "label": ""
                         }
                       },
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -584,7 +328,7 @@
                       "bottomRow": 59,
                       "fieldLimitExceeded": false,
                       "parentRowSpace": 10,
-                      "title": "Insert Row",
+                      "title": "Update Cover Image",
                       "type": "JSON_FORM_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -600,61 +344,10 @@
                           "key": "schema.__root_schema__.defaultValue"
                         },
                         {
-                          "key": "sourceData"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col3.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col4.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col5.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col2.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col6.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col7.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col8.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col9.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col10.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col11.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col12.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col5.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col5.borderRadius"
-                        },
-                        {
                           "key": "schema.__root_schema__.borderRadius"
                         },
                         {
                           "key": "schema.__root_schema__.cellBorderRadius"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col1.defaultValue"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col1.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col1.borderRadius"
                         },
                         {
                           "key": "borderRadius"
@@ -675,64 +368,16 @@
                           "key": "resetButtonStyles.buttonColor"
                         },
                         {
-                          "key": "schema.__root_schema__.children.col2.accentColor"
+                          "key": "schema.__root_schema__.children.corver_image.defaultValue"
                         },
                         {
-                          "key": "schema.__root_schema__.children.col2.borderRadius"
+                          "key": "schema.__root_schema__.children.corver_image.borderRadius"
                         },
                         {
-                          "key": "schema.__root_schema__.children.col3.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col3.borderRadius"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col4.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col6.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col6.borderRadius"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col7.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col7.borderRadius"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col8.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col8.borderRadius"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col9.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col9.borderRadius"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col10.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col10.borderRadius"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col11.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col11.borderRadius"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col12.accentColor"
-                        },
-                        {
-                          "key": "schema.__root_schema__.children.col12.borderRadius"
+                          "key": "schema.__root_schema__.children.corver_image.accentColor"
                         }
                       ],
-                      "sourceData": "{{_.omit(data_table.tableData[0], \"customColumn1\", \"__primaryKey__\")}}",
+                      "sourceData": "/",
                       "showReset": true,
                       "resetButtonLabel": "Reset",
                       "key": "h9l9ozr8op",
@@ -740,7 +385,7 @@
                       "backgroundColor": "#fff",
                       "rightColumn": 64,
                       "dynamicHeight": "FIXED",
-                      "autoGenerateForm": true,
+                      "autoGenerateForm": false,
                       "widgetId": "o8oiq6vwkk",
                       "resetButtonStyles": {
                         "boxShadow": "none",
@@ -921,6 +566,9 @@
                   "key": "primaryColumns.updated_by.computedValue"
                 },
                 {
+                  "key": "primaryColumns.customColumn1.computedValue"
+                },
+                {
                   "key": "primaryColumns.EditActions1.saveButtonColor"
                 },
                 {
@@ -972,15 +620,16 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1677381418572,
+              "columnUpdatedAt": 1677383621177,
               "defaultSelectedRowIndices": [
                 0
               ],
-              "widgetName": "Table1",
+              "widgetName": "Global_Tasks",
               "defaultPageSize": 0,
               "columnOrder": [
                 "id",
                 "title",
+                "customColumn1",
                 "cover_image",
                 "description",
                 "goals",
@@ -1008,7 +657,11 @@
               },
               "parentRowSpace": 10,
               "hideCard": false,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "primaryColumns.cover_image.onClick"
+                }
+              ],
               "borderWidth": "1",
               "primaryColumns": {
                 "id": {
@@ -1028,14 +681,14 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": true,
-                  "isEditable": true,
+                  "isCellEditable": false,
+                  "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1057,14 +710,14 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": true,
-                  "isEditable": true,
+                  "isCellEditable": false,
+                  "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "title",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1093,10 +746,11 @@
                   "label": "cover_image",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cover_image\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cover_image\"]))}}",
                   "sticky": "",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "onClick": ""
                 },
                 "description": {
                   "allowCellWrapping": false,
@@ -1122,7 +776,7 @@
                   "label": "description",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1144,14 +798,14 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": true,
-                  "isEditable": true,
+                  "isCellEditable": false,
+                  "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "goals",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"goals\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"goals\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1173,14 +827,14 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": true,
-                  "isEditable": true,
+                  "isCellEditable": false,
+                  "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "is_active",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_active\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"is_active\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1202,14 +856,14 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": true,
-                  "isEditable": true,
+                  "isCellEditable": false,
+                  "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "created_at",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_at\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_at\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1231,14 +885,14 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": true,
-                  "isEditable": true,
+                  "isCellEditable": false,
+                  "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "created_by",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_by\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_by\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1260,14 +914,14 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": true,
-                  "isEditable": true,
+                  "isCellEditable": false,
+                  "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "updated_at",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_at\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_at\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1289,17 +943,45 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": true,
-                  "isEditable": true,
+                  "isCellEditable": false,
+                  "isEditable": false,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "updated_by",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_by\"]))}}",
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_by\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
+                },
+                "customColumn1": {
+                  "allowCellWrapping": false,
+                  "index": 10,
+                  "width": 150,
+                  "originalId": "customColumn1",
+                  "id": "customColumn1",
+                  "alias": "image",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "image",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "image",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( currentRow.cover_image))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF"
                 },
                 "EditActions1": {
                   "allowCellWrapping": false,
@@ -1331,13 +1013,13 @@
                   "discardIconAlign": "left",
                   "saveActionLabel": "Save",
                   "discardActionLabel": "Discard",
-                  "saveButtonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+                  "saveButtonColor": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
                   "discardButtonColor": "#F22B2B",
-                  "saveBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-                  "discardBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "saveBorderRadius": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "discardBorderRadius": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
                   "discardButtonVariant": "TERTIARY",
-                  "isSaveDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
-                  "isDiscardDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}"
+                  "isSaveDisabled": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( !Global_Tasks.updatedRowIndices.includes(currentIndex)))}}",
+                  "isDiscardDisabled": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( !Global_Tasks.updatedRowIndices.includes(currentIndex)))}}"
                 }
               },
               "key": "6atnfc6m4x",
@@ -1355,11 +1037,482 @@
               "isVisibleSearch": true,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "borderColor": "#E0DEDE",
+              "isVisibleDownload": true,
+              "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+              "topRow": 52,
+              "isSortable": true,
+              "type": "TABLE_WIDGET_V2",
+              "inlineEditingSaveOption": "ROW_LEVEL",
+              "animateLoading": true,
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "primaryColumns.id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.bucket_id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.owner.computedValue"
+                },
+                {
+                  "key": "primaryColumns.created_at.computedValue"
+                },
+                {
+                  "key": "primaryColumns.updated_at.computedValue"
+                },
+                {
+                  "key": "primaryColumns.last_accessed_at.computedValue"
+                },
+                {
+                  "key": "primaryColumns.metadata.computedValue"
+                },
+                {
+                  "key": "primaryColumns.path_tokens.computedValue"
+                },
+                {
+                  "key": "primaryColumns.customColumn1.computedValue"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.displayText"
+                },
+                {
+                  "key": "primaryColumns.customColumn2.computedValue"
+                }
+              ],
+              "needsHeightForContent": true,
+              "leftColumn": 0,
+              "delimiter": ",",
+              "defaultSelectedRowIndex": 0,
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "isVisible": true,
+              "enableClientSideSearch": true,
+              "version": 1,
+              "totalRecordsCount": 0,
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "editActions": {
+                  "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1677383541547,
+              "defaultSelectedRowIndices": [
+                0
+              ],
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "id",
+                "customColumn1",
+                "customColumn2",
+                "bucket_id",
+                "name",
+                "owner",
+                "created_at",
+                "updated_at",
+                "last_accessed_at",
+                "metadata",
+                "path_tokens"
+              ],
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "bottomRow": 80,
+              "columnWidthMap": {
+                "task": 245,
+                "step": 70,
+                "status": 85,
+                "customColumn1": 117
+              },
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "dynamicTriggerPathList": [],
+              "borderWidth": "1",
+              "primaryColumns": {
+                "id": {
+                  "allowCellWrapping": false,
+                  "index": 0,
+                  "width": 150,
+                  "originalId": "id",
+                  "id": "id",
+                  "alias": "id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "id",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "bucket_id": {
+                  "allowCellWrapping": false,
+                  "index": 1,
+                  "width": 150,
+                  "originalId": "bucket_id",
+                  "id": "bucket_id",
+                  "alias": "bucket_id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "bucket_id",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"bucket_id\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "name": {
+                  "allowCellWrapping": false,
+                  "index": 2,
+                  "width": 150,
+                  "originalId": "name",
+                  "id": "name",
+                  "alias": "name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "name",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "owner": {
+                  "allowCellWrapping": false,
+                  "index": 3,
+                  "width": 150,
+                  "originalId": "owner",
+                  "id": "owner",
+                  "alias": "owner",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "owner",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"owner\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "created_at": {
+                  "allowCellWrapping": false,
+                  "index": 4,
+                  "width": 150,
+                  "originalId": "created_at",
+                  "id": "created_at",
+                  "alias": "created_at",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "created_at",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_at\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "updated_at": {
+                  "allowCellWrapping": false,
+                  "index": 5,
+                  "width": 150,
+                  "originalId": "updated_at",
+                  "id": "updated_at",
+                  "alias": "updated_at",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "updated_at",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_at\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "last_accessed_at": {
+                  "allowCellWrapping": false,
+                  "index": 6,
+                  "width": 150,
+                  "originalId": "last_accessed_at",
+                  "id": "last_accessed_at",
+                  "alias": "last_accessed_at",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "last_accessed_at",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_accessed_at\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "metadata": {
+                  "allowCellWrapping": false,
+                  "index": 7,
+                  "width": 150,
+                  "originalId": "metadata",
+                  "id": "metadata",
+                  "alias": "metadata",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "metadata",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"metadata\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "path_tokens": {
+                  "allowCellWrapping": false,
+                  "index": 8,
+                  "width": 150,
+                  "originalId": "path_tokens",
+                  "id": "path_tokens",
+                  "alias": "path_tokens",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textColor": "",
+                  "textSize": "0.875rem",
+                  "fontStyle": "",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "path_tokens",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"path_tokens\"]))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "cellBackground": ""
+                },
+                "customColumn1": {
+                  "allowCellWrapping": false,
+                  "index": 9,
+                  "width": 150,
+                  "originalId": "customColumn1",
+                  "id": "customColumn1",
+                  "alias": "img",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "image",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "img",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF"
+                },
+                "customColumn2": {
+                  "allowCellWrapping": false,
+                  "index": 10,
+                  "width": 150,
+                  "originalId": "customColumn2",
+                  "id": "customColumn2",
+                  "alias": "cover_image",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "cover_image",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}",
+                  "sticky": "",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "labelColor": "#FFFFFF",
+                  "displayText": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}"
+                }
+              },
+              "key": "bszqwteuv6",
+              "canFreezeColumn": true,
+              "isDeprecated": false,
+              "rightColumn": 62,
+              "textSize": "0.875rem",
+              "widgetId": "e496wz03ne",
+              "tableData": "{{Images_Task.data}}",
+              "label": "Data",
+              "searchKey": "",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER"
             }
           ]
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Public.Global Tasks_Images_Task",
+              "name": "Images_Task",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Public.Global Tasks_Query1",
               "name": "Query1",

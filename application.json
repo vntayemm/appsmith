@@ -1,24 +1,8 @@
 {
   "pages": [
     {
-      "id": "Search",
-      "isDefault": false
-    },
-    {
-      "id": "Dashboard",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
-      "isDefault": true
-    },
-    {
-      "id": "Images2",
-      "isDefault": false
-    },
-    {
       "id": "Public.Global Tasks",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "viewMode": false,
@@ -27,7 +11,7 @@
   "color": "#ECECEC",
   "icon": "pizza",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"

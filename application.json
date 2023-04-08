@@ -3,6 +3,10 @@
     {
       "id": "Public.Global Tasks",
       "isDefault": true
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -11,7 +15,7 @@
   "color": "#ECECEC",
   "icon": "pizza",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "FLUID"

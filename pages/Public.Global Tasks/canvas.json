@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 510,
+          "bottomRow": 930,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -582,6 +582,9 @@
                 },
                 {
                   "key": "primaryColumns.EditActions1.isDiscardDisabled"
+                },
+                {
+                  "key": "defaultSearchText"
                 }
               ],
               "needsHeightForContent": true,
@@ -621,6 +624,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1677383725193,
+              "primaryColumnId": "id",
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -1022,6 +1026,7 @@
                   "isDiscardDisabled": "{{Global_Tasks.processedTableData.map((currentRow, currentIndex) => ( !Global_Tasks.updatedRowIndices.includes(currentIndex)))}}"
                 }
               },
+              "defaultSearchText": "{{Query1.data.title}}",
               "key": "6atnfc6m4x",
               "canFreezeColumn": true,
               "isDeprecated": false,
@@ -1096,6 +1101,9 @@
                 },
                 {
                   "key": "primaryColumns.customColumn2.computedValue"
+                },
+                {
+                  "key": "defaultSearchText"
                 }
               ],
               "needsHeightForContent": true,
@@ -1137,7 +1145,7 @@
               "defaultSelectedRowIndices": [
                 0
               ],
-              "widgetName": "Table1",
+              "widgetName": "Power3_Images",
               "defaultPageSize": 0,
               "columnOrder": [
                 "id",
@@ -1190,7 +1198,7 @@
                   "label": "id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1219,7 +1227,7 @@
                   "label": "bucket_id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"bucket_id\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"bucket_id\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1248,7 +1256,7 @@
                   "label": "name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1277,7 +1285,7 @@
                   "label": "owner",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"owner\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"owner\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1306,7 +1314,7 @@
                   "label": "created_at",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_at\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"created_at\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1335,7 +1343,7 @@
                   "label": "updated_at",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_at\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updated_at\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1364,7 +1372,7 @@
                   "label": "last_accessed_at",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_accessed_at\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"last_accessed_at\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1393,7 +1401,7 @@
                   "label": "metadata",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"metadata\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"metadata\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1422,7 +1430,7 @@
                   "label": "path_tokens",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"path_tokens\"]))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"path_tokens\"]))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -1449,7 +1457,7 @@
                   "label": "img",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}",
                   "sticky": "",
                   "validation": {},
                   "buttonStyle": "rgb(3, 179, 101)",
@@ -1477,14 +1485,15 @@
                   "label": "cover_image",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}",
+                  "computedValue": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}",
                   "sticky": "",
                   "validation": {},
                   "buttonStyle": "rgb(3, 179, 101)",
                   "labelColor": "#FFFFFF",
-                  "displayText": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}"
+                  "displayText": "{{Power3_Images.processedTableData.map((currentRow, currentIndex) => ( 'https://rdhhtkxvzdnblhhhwvmn.supabase.co/storage/v1/object/public/power3-bucket/' + currentRow.name))}}"
                 }
               },
+              "defaultSearchText": "{{Images_Task.data.name}}",
               "key": "bszqwteuv6",
               "canFreezeColumn": true,
               "isDeprecated": false,
@@ -1500,6 +1509,34 @@
               "isVisibleSearch": true,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
+            },
+            {
+              "widgetName": "DocumentViewer1",
+              "isCanvas": false,
+              "displayName": "Document Viewer",
+              "iconSVG": "/static/media/icon.09fcd36be84f09ed7312b2ed6a307b27.svg",
+              "searchTags": [
+                "pdf"
+              ],
+              "topRow": 53,
+              "bottomRow": 93,
+              "parentRowSpace": 10,
+              "type": "DOCUMENT_VIEWER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.5625,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "key": "6knu10lh1w",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "avqaqupnrc",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "docUrl": "https://www.learningcontainer.com/wp-content/uploads/2019/09/sample-pdf-file.pdf"
             }
           ]
         },

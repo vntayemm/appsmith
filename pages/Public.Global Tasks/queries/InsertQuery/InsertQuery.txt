@@ -1,0 +1,22 @@
+INSERT INTO public.Global Tasks (
+	"id",
+	"title",
+	"cover_image",
+	"description",
+	"goals",
+	"is_active",
+	"created_at",
+	"created_by",
+	"updated_at",
+	"updated_by")
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.title}}',
+	'{{insert_form.formData.cover_image}}',
+	'{{insert_form.formData.description}}',
+	'{{insert_form.formData.goals}}',
+	'{{insert_form.formData.is_active}}',
+	'{{insert_form.formData.created_at}}',
+	'{{insert_form.formData.created_by}}',
+	'{{insert_form.formData.updated_at}}',
+	'{{insert_form.formData.updated_by}}');

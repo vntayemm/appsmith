@@ -1,0 +1,1 @@
+SELECT * FROM public."Global Tasks"  LIMIT 10;

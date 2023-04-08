@@ -1,0 +1,11 @@
+UPDATE public.Global Tasks SET
+		"title" = '{{update_form.fieldState.title.isVisible ? update_form.formData.title : update_form.sourceData.title}}',
+		"cover_image" = '{{update_form.fieldState.cover_image.isVisible ? update_form.formData.cover_image : update_form.sourceData.cover_image}}',
+    "description" = '{{update_form.fieldState.description.isVisible ? update_form.formData.description : update_form.sourceData.description}}',
+		"goals" = '{{update_form.fieldState.goals.isVisible ? update_form.formData.goals : update_form.sourceData.goals}}',
+		"is_active" = '{{update_form.fieldState.is_active.isVisible ? update_form.formData.is_active : update_form.sourceData.is_active}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}',
+		"created_by" = '{{update_form.fieldState.created_by.isVisible ? update_form.formData.created_by : update_form.sourceData.created_by}}',
+		"updated_at" = '{{update_form.fieldState.updated_at.isVisible ? update_form.formData.updated_at : update_form.sourceData.updated_at}}',
+		"updated_by" = '{{update_form.fieldState.updated_by.isVisible ? update_form.formData.updated_by : update_form.sourceData.updated_by}}'
+WHERE "id" = {{data_table.selectedRow.id}};
